@@ -1,0 +1,17 @@
+{
+  "name": "coincli",
+  "version": "1.0.0",
+  "description": "Print the top cryptocurrencies by market cap from the CoinGecko API",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "coincli": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC"
+}
